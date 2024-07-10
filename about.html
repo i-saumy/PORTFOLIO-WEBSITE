@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About SAUMY</title>
-    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="icon" href="clean-code.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#" class="logo">SAUMY.</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="active">About</a></li>
+                    <li><a href="mailto:saumygami123@gmail.com">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <div class="hero">
-        <nav>
-            <a href="#" class="logo1">SAUMY.</a>
-            <ul>
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="#" class="active">About</a></li>
-                <li><a href="mailto:saumygami123@gmail.com">Contact</a></li>
-               
-            </ul>
-        
-        </nav>
-        <div class="info">
-            <p>Hello and welcome to my website. <br> Here I will be mentioning about myself. </p>
-            <br>  <p> Hi,I am a B.Tech Computer Science Engineering undergraduate<br> at KIIT University.</p>
-           <br>   <p><b>To Know About my Skills and other information,<br>Please Refer to my CV given below</b></p><br>
-            <a href="Saumy_Developer.pdf" class="btn">Download CV</a>
-            <br> <br> <br>
-        <div class ="hey">
-            <h2><u>My Skills.</u></h2>
-            <br> 
-          <img class="code-img" src="code.png" alt="dev" />
-          <a class="edd" href="https://github.com/i-saumy"><h3 class="skill-head">Design & Devlopment</h3></a>
-          <p >
-            I feel coding is challenging,gives me thrills,gives a <br> workout to my brain,that is the reason why am <br>passionate about coding.
-            Some of the programming <br>languages that I know are Java,C++,C,Python,HTML and<br> CSS.Currently learning ReactJs and even more.
-          </p>
-          <br><br><br>
-          <img class="food-img" src="360_F_374737839_VsxlmnN7soqOOOFFzy5kfE9H6PFMCkPX-removebg-preview.png" alt="food-img" />
-          <h3><u>Food</u></h3>
-          <p>
-            My one of the hobbies is makeing and eating food.I am doing this from<br> very begining and wanted to cook inovative things more . 
-          </p>
-          <br><br><br><br><br><br>
-          <img class="code-img1" src="images-removebg-preview.png" alt="basketball-img" />
-          <br><br><br>
-          <h3><u>Basketball</u></h3>
-          <p>
-           Love to play Basketball with friends with a good,positive spirit and<br> maintaing sportsmanship. 
-          </p>
-        </div>
-        </div>
-        <br><br><br>
-        <div class="img-box">
-            <img src = "image_processing20210118-3139-v4u913-removebg-preview.png"class ="back-img">
-            <img src="e59fae20-7abe-4bb4-bf4e-e74c486a116c-removebg-preview.png" class="man-img">
-        </div>
-        <h2 class ="get ">Get In Touch</h2>
-        <div class="social1">
-            <a class="footer-link"href="https://www.linkedin.com/in/saumy-76b37b256//"><img class="logo" src="linkedin (1).png" alt="linkedin-logo"></a>
-            <a class="footer-link"href="https://www.instagram.com/saumygami/"><img class="logo" src="instagram (1).png" alt="instagram-logo"></a> 
-            <a class="footer-link" href="https://twitter.com/SaumyGami"><img  class="logo" src="twitter.png" alt="twitter-logo"></a>
-            <a class="footer-link" href="https://github.com/i-saumy"><img  class="logo" src="128-1280192_github-logo-png-github-png-transparent-png.png" alt="github"></a>
-            <br>
+        <main>
+            <section class="intro">
+                <div class="intro-text">
+                    <h1>Hello and welcome to my website.</h1>
+                    <p>Here I will be mentioning about myself.</p>
+                    <p>Hi, I am a B.Tech Computer Science Engineering undergraduate at <span class="highlight">KIIT University.</span></p><br><br>
+                    <p><strong>To know about my skills and other information, please refer to my CV given below</strong></p>
+                    <a href="Saumy_Developer.pdf" class="btn">Download CV</a>
+                </div>
+                <div class="intro-image">
+                    <img src="mobile-friendly-image.png" alt="Mobile friendly image" class="mobile-img">
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2>My Skills</h2>
+                <div class="skill-item">
+                    <img src="code.png" alt="dev" class="skill-icon">
+                    <div class="skill-content">
+                        <h3><a href="https://github.com/i-saumy">Design & Development</a></h3>
+                        <p>I feel coding is challenging, gives me thrills, gives a workout to my brain, that is the reason why I am passionate about coding. Some of the programming languages that I know are Java, C++, C, Python, HTML and CSS. Currently learning ReactJs and even more.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="360_F_374737839_VsxlmnN7soqOOOFFzy5kfE9H6PFMCkPX-removebg-preview.png" alt="food-img" class="skill-icon">
+                    <div class="skill-content">
+                        <h3>Food</h3>
+                        <p>My one of the hobbies is making and eating food. I am doing this from very beginning and wanted to cook innovative things more.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="images-removebg-preview.png" alt="basketball-img" class="skill-icon">
+                    <div class="skill-content">
+                        <h3>Basketball</h3>
+                        <p>Love to play Basketball with friends with a good, positive spirit and maintaining sportsmanship.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <h2>Get In Touch</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/saumy-76b37b256/"><img src="linkedin (1).png" alt="linkedin-logo"></a>
+                <a href="https://www.instagram.com/saumygami/"><img src="instagram (1).png" alt="instagram-logo"></a>
+                <a href="https://twitter.com/SaumyGami"><img src="twitter.png" alt="twitter-logo"></a>
+                <a href="https://github.com/i-saumy"><img src="128-1280192_github-logo-png-github-png-transparent-png.png" alt="github"></a>
+            </div>
             <p class="copyright">©2022 SAUMY.</p>
-        </div>
+        </footer>
     </div>
-
 </body>
 </html>

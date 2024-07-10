@@ -52,9 +52,11 @@ nav ul li a:hover, a.active{
     border: 1px solid #ff4321;
 }
 .info{
-    background-color:#edf2fc;
-    margin-left: 8%;
-    margin-top: 10%;
+  background-color: #edf2fc;
+  text-align: center;
+  margin: 10% auto;
+  max-width: 800px;
+  padding: 0 20px;
 }
 .info h1{
     font-size: 40px;
@@ -160,19 +162,19 @@ nav ul li a:hover, a.active{
 }
 .get
 {
-    margin-left: 670px;
-    font-family: 'Montserrat', sans-serif;
-    font-size:3rem;
-    color:#606163;
-    font-weight: normal;
-    padding-bottom:10px;
-    background-color:#edf2fc;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #606163;
+  font-weight: normal;
+  padding-bottom: 10px;
+  background-color: #edf2fc;
 }
 .social1
 {
-    background-color:#edf2fc;
-    margin-left: 45%;
-    margin-top: 50px;
+  background-color: #edf2fc;
+  text-align: center;
+  margin-top: 50px;
 }
 .hey
 {
