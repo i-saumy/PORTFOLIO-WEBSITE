@@ -1,0 +1,65 @@
+/* mobile-style.css */
+
+@media screen and (max-width: 768px) {
+    .hero {
+      height: auto;
+      padding: 20px;
+    }
+  
+    nav {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 0;
+    }
+  
+    nav ul {
+      margin-top: 15px;
+    }
+  
+    nav ul li {
+      margin: 5px 10px;
+    }
+  
+    .info {
+      margin-left: 0;
+      margin-top: 30px;
+      text-align: center;
+    }
+  
+    .info h1 {
+      font-size: 32px;
+    }
+  
+    .info p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    .img-box {
+      position: static;
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+    }
+  
+    .img-box img {
+      position: static;
+      transform: none;
+      max-width: 80%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .social {
+      margin-left: 0;
+      margin-top: 30px;
+      text-align: center;
+    }
+  
+    .social a {
+      font-size: 24px;
+      margin: 0 10px;
+    }
+  }
